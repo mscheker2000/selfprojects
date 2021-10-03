@@ -1,3 +1,6 @@
+#ifndef TICTACTOE_H
+#define TICTACTOE_H
+
 int instructions();
 void selection();
 void twoplayer();
@@ -8,3 +11,5 @@ int selectnum();
 int startchick();
 void circuischicken();
 void startcat();
+
+#endif

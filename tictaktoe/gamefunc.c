@@ -1,6 +1,7 @@
 #include <tictactoe.h>
 #include <stdio.h>
 #include <stdlib.h>
+//code Mark Scheker
 //instructions just prints out the instructions of how to start the game
 int instructions()
 {
@@ -96,11 +97,9 @@ void solo()
     {
       if(counterai(&display,3)!= 2) //see if chicken can get win
       {
-        printf("firstdip");
       }
       else
       {
-        printf("doubledip");
         counterai(&display,4); //counter player
       }
       count++;
